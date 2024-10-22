@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Fruits",
+  "description": "An array of fruits with name and optional emoji",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "description": "The name of the fruit",
+        "type": "string"
+      },
+      "emoji": {
+        "description": "The emoji representing the fruit",
+        "type": "string"
+      }
+    },
+    "required": ["name"]
+  }
+}
